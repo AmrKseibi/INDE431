@@ -1,0 +1,23 @@
+﻿Name,price,Sugar (in g per unit),Chocolate (in g per unit),Dough (in g per unit),Eggs (in units per unit),Butter (in g per unit),Milk (in L per unit),Coffee (in g per unit),Category
+chocolate chip cookie,1500,40,30,0,0.5,30,0,0,pastry
+plain bread,3500,10,0,30,0,0,0,0,pastry
+jam,1500,30,0,0,0,0,0,0,pastry
+iced coffee,4000,0,0,0,0,0,0,10,drink
+croissant,3500,0,0,30,0.5,80,0,0,pastry
+iced coffee latte,4500,5,0,0,0,0,0.1,10,drink
+chocolate croissant,4800,10,10,30,0.5,80,0,0,pastry
+brownie ,4000,10,15,0,0.5,10,0.1,0,pastry
+lemon cake,3500,20,0,10,0.25,30,0,0,pastry
+chocolate cake ,4000,20,20,20,0.5,5,0,0,pastry
+cofffee cake ,4500,10,0,20,0.5,5,0,10,pastry
+strawberry tart,4000,20,0,10,0.5,20,0,0,pastry
+chocolate mousse,4500,15,15,0,0.25,0,0,0,pastry
+plain cheese cake,5000,20,0,20,0.25,35,0,0,pastry
+chocolate cheesecake ,4500,20,15,20,0.25,35,0,0,pastry
+orange pound cake,4500,10,0,20,0.5,5,0,0,pastry
+cinnamon roll ,2500,30,0,10,0.25,10,0,0,pastry
+chocolate macaroon,4500,15,5,5,0.1,3,0,0,pastry
+apple pie ,4500,25,0,20,0.5,15,0,0,pastry
+tiramisu,4500,10,0,0,0.25,10,0,10,pastry
+chcocolate éclair ,4000,35,30,15,0.25,30,0,0,pastry
+delivery fee,3000,,,,,,,,
