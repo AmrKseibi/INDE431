@@ -1,0 +1,48 @@
+erDiagram
+    # Entities
+    Vehicle {
+        VIN : Text (PK)
+        Brand : Text
+        Model : Text
+        Color : Text
+        Date_Made : Date
+        Engine_Size : Number
+        Selling_Price : Currency
+    }
+    Car {
+        VIN : Text (PK, FK(Vehicle))
+        Mileage : Number
+        Condition : Text
+    }
+    Motorcycle {
+        VIN : Text (PK, FK(Vehicle))
+    }
+    Customer {
+        Phone_Number : Text (PK)
+        First_Name : Text
+        Last_Name : Text
+    }
+    Purchase {
+        Purchase_ID : Number (PK)
+        Customer_Phone_Number : Text (FK(Customer))
+        Purchase_Date : Date
+    }
+    Purchase_Item {
+        Purchase_ID : Number (FK(Purchase))
+        VIN : Text (FK(Vehicle))
+    }
+    Rental {
+        Rental_ID : Number (PK)
+        VIN : Text (FK(Vehicle))
+        Rental_Date : Date
+        Rental_Duration : Number
+        Drop_Off_Location : Text
+    }
+
+    # Relationships
+    Vehicle ||--o{ Car : VIN }
+    Vehicle ||--o{ Motorcycle : VIN }
+    Customer ||--o{ Purchase : Customer_Phone_Number }
+    Purchase ||--{ Purchase_Item : Purchase_ID }
+    Purchase_Item ||--o{ Vehicle : VIN }
+    Vehicle ||--o{ Rental : VIN }
